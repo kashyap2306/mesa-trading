@@ -9,6 +9,7 @@ export default defineConfig({
   esbuild: {
     jsx: 'automatic'
   },
+  base: './',  // ✅ Firebase deploy ke liye ye important hai
   server: {
     hmr: {
       overlay: false
